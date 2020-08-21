@@ -26,10 +26,10 @@ html,body {
 }
 
 .front-box {
-    background-color: 	#143d14;
+    background-color: 	#1b631b;
     color: #fff;
     margin: 15px;
-    border-style: solid;
+    border-style: outset;
     border-width: 3px;
     border-color: #86fb6c;
 }
@@ -72,4 +72,11 @@ body {
     width: 100%;
     height: 3rem;
     opacity: 0.0;
+}
+
+#contact-box {
+    background-color: #1b631b;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #86fb6c;
 }
