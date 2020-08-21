@@ -3,8 +3,18 @@
     width: 60%;
     padding: 0;
     margin: 0;
+    box-shadow: 2px 2px #86fb6c;
 }
 
+.footer-div {
+    padding-left:;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center
+}
+html,body {
+    height: 100%;
+}
 .logo-position {
     max-height: 100%;
     max-width: 100%;
@@ -16,7 +26,7 @@
     margin: 15px;
     border-style: solid;
     border-width: 3px;
-    border-color: #39FF14;
+    border-color: #86fb6c;
 }
 
 h6 {
@@ -32,16 +42,29 @@ body {
     font-size: 30px;
 }
 
-.bg-image {
+body {
     background-image: url(../images/bgnew.jpg);
     width: 100%;
     background-repeat:no-repeat;
-    background-size:100%;
-    background-attachment: ;
-    background-position-x: center ;
-    background-position-y: center ;
+    background-size: cover;
+    background-attachment: fixed ;
+    background-position-x: top;
+    background-position-y: top ;
 }
 
 .img-front {
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+.spacing {
+    width: 100%;
+    height: 8rem;
+    opacity: 0.0;
+}
+
+.spacing-header {
+     width: 100%;
+    height: 3rem;
+    opacity: 0.0;
+}
