@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function() {
+      emailjs.init("user_VtBFkLjouZeBVzP4AKO0L");
+   })();
+</script>
     <title>The Cardano Advisor</title>
 </head>
     <body>
@@ -59,21 +67,21 @@
                         <p>text</p>
                     </div>
                     <div class="col-7" id="contact-box">
-                        <form action="https://formdump.codeinstitute.net/" method="post"> 
+                        <form onsubmit="return sendMail(this);"> 
                             <div class="container">
                                 <div class="form-row">
                                 <div class="form-group col-md-4">
-                                    <label for="fname">Name*</label>
-                                    <input type="text" class="form-control" id="fname" placeholder="Name" name="first_name" required>
+                                    <label for="name">Name*</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="email">Email*</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Email Address" name="email_address" required>
+                                    <label for="emailaddress">Email*</label>
+                                    <input type="email" class="form-control" id="emailaddress" placeholder="Email Address" name="emailaddress" required>
                                 </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="Textarea">Message</label>
-                                    <textarea class="form-control" id="Textarea" name="comments" rows="6"></textarea>
+                                    <label for="requests">Message</label>
+                                    <textarea class="form-control" id="Textarea" name="requests" rows="6"></textarea>
                                     <button type="submit" class="btn btn-warning">Submit</button>
                                 </div>
                             </div>
@@ -100,6 +108,7 @@
                 </div>
             </div>
         </footer>
+        <script src="assets/js/sendemail.js" ></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
