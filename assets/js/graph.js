@@ -1,23 +1,21 @@
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("myChart").innerHTML = this.responseText;
-    }
+
+let api = 'https://api.coingecko.com/api/v3/coins/cardano/market_chart?vs_currency=eur&days=30'
+async function getPrice () {
+    let response = await fetch(api);
+    let data =await response.json();
+    console.log(data);
 };
 
-xhr.open("GET", "https://api.coingecko.com/api/v3/coins/cardano/market_chart?vs_currency=eur&days=30");
-
-xhr.send();
+getPrice();
 
 
-
-
+/*
 let myChart = document.getElementById('myChart').getContext('2d');
 
         let cardano = new Chart(myChart, {
             type:'line',
             data:{
-                labels:['Price'],
+                labels:['Price', 'hour'],
                 datasets:[{
                     label:'Pop',
                     data:[
@@ -31,3 +29,4 @@ let myChart = document.getElementById('myChart').getContext('2d');
             },
             options:{}
         })
+*/
