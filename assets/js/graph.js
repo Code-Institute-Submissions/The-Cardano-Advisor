@@ -3,7 +3,8 @@ let api = 'https://api.coingecko.com/api/v3/coins/cardano/market_chart?vs_curren
 async function getPrice () {
     let response = await fetch(api);
     let data =await response.json();
-    console.log(data);
+
+    console.log(data.prices);
 };
 
 getPrice();
