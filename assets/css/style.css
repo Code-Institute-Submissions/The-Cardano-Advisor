@@ -97,12 +97,27 @@ body {
 }
 
 #contact-3 {
-    color: grey;
+    color: #fff;
+}
+
+#sub-button {
+    border: 10px;
+    padding-top: 10px;
 }
 
 *, *::after, *::before {
     box-sizing: border-box;
 }
+
+#charles {
+    width: 10rem;
+    height: 10rem;
+}
+
+.header-about {
+    text-align: center;
+}
+
 
 .modal.active {
     transform: translate(-50%, -50%) scale(1);
