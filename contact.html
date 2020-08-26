@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-2"></div>
                     <div class="col-6" id="contact-box">
-                        <form onsubmit="return sendMail(this);"> 
+                       <form onsubmit="return sendMail(this);">
                             <div class="container">
                                 <div class="form-row">
                                 <div class="form-group col-md-4">
@@ -85,7 +85,19 @@
                                 <div class="form-group">
                                     <label for="requests">Message</label>
                                     <textarea class="form-control" id="Textarea" name="requests" rows="7"></textarea>
-                                    <button type="submit" id="sub-button" class="btn btn-warning">Submit</button>
+                                    <button data-modal-target="#modal" toggle="modal" type="submit"  class="btn btn-warning">Submit</button>
+                                    <div class="modal" id="modal">
+                                        <div class="modal-header">
+                                            <div class="title">
+                                                Email Sent 
+                                            </div>
+                                            <button data-close-button class="close-button">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Thank you for contacting us. We will reply as soon as possible.
+                                        </div>
+                                        <div id="overlay"></div>
+                                    </div>
                                 </div>
                             </div>
                         </form>
