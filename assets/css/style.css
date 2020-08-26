@@ -189,3 +189,23 @@ body {
     opacity: 0;
     pointer-events: all;
 }
+
+.byron {
+    background-image: url(../images/byron.jpg)
+}
+
+.shelley {
+    background-image: url(../images/shelley-l.jpg)
+}
+
+.gougen {
+    background-image: url(../images/gouguen-l.jpg)
+}
+
+.basho {
+    background-image: url(../images/basho-l.jpg)
+}
+
+.voltaire {
+    background-image: url(../images/Voltaire-l.jpg)
+}
