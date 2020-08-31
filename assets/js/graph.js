@@ -15,7 +15,7 @@ getPrice()
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [{
                 label: 'Cardano 7 day Price',
-                data: [12, 19, 3, 5, 2, 3],
+                data: [12, 19, 3, 5, 2, 3], /*trying to use the data variable here does not work*/
                 
             }]
         },
@@ -29,5 +29,3 @@ getPrice()
             }
         }
     });
-
-
