@@ -25,6 +25,9 @@ html,body {
     width: 10em;
 }
 
+#black {
+    color: black;
+}
 .front-box {
     background-color: 	#1b631b;
     color: #fff;
