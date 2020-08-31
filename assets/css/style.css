@@ -42,9 +42,7 @@ h6 {
 .front-p {
     text-align: center;
 }
-body {
-    background-color: black;
-}
+
 
 .nav-color {
     color: #fff;;
@@ -52,7 +50,7 @@ body {
 }
 
 body {
-    background-image: url(../images/bg-5.jpg);
+    background-image: url(../images/bg-5.jp);
     width: 100%;
     background-repeat:no-repeat;
     background-size: cover;
