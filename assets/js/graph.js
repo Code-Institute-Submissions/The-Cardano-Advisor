@@ -2,30 +2,42 @@
 let api = 'https://api.coingecko.com/api/v3/coins/cardano/market_chart?vs_currency=eur&days=7'
 async function getPrice () {
     const response = await fetch(api);
-    const data =await response.json();
-    console.log(data.prices)
+    const data = await response.json();
+    createDashboard(data.prices);
 };
 
-getPrice()
+function createDashboard(prices) {
+    console.log(prices);
+    let labelSet = [];
+    let dataSet = [];
+
+    for (let i = 0; i < prices.length; i++) {
+        labelSet.push(prices[i][0]);
+        dataSet.push(prices[i][1]);
+    }
 
     const ctx = document.getElementById('myChart');
     const myChart = new Chart(ctx, {
         type: 'line',
         data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            labels: labelSet,
             datasets: [{
-                label: 'Cardano 7 day Price',
-                data: [12, 19, 3, 5, 2, 3], /*trying to use the data variable here does not work*/
-                
+                label: 'Cardano Price (EUR)',
+                data: dataSet,
+                backgroundColor: [
+                'rgba(0, 255, 0, 0.5)',
+            ],
+            showLine:true,
+            steppedLine: true,
             }]
         },
         options: {
             scales: {
                 yAxes: [{
-                    ticks: {
-                        beginAtZero: true
-                    }
                 }]
             }
         }
     });
+}
+
+getPrice();

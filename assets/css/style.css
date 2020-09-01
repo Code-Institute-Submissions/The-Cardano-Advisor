@@ -53,7 +53,7 @@ h6 {
 }
 
 body {
-    background-image: url(../images/bg-5.jp);
+    background-image: url(../images/bg-5.jpg);
     width: 100%;
     background-repeat:no-repeat;
     background-size: cover;
@@ -129,6 +129,13 @@ body {
     text-align: center;
 }
 
+.about {
+    color: #fafafa;
+    background-color: #1b631b;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #86fb6c;
+}
 #input {
     width: 220px;
     height:120px;
