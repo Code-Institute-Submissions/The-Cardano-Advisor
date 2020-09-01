@@ -107,7 +107,7 @@ body {
     font-weight: bold;
 }
 
-#contact-3 {
+.contact-3 {
     color: #fff;
 }
 
@@ -186,6 +186,16 @@ body {
 
 .modal-body {
     padding: 10px 15px;
+}
+
+.staking {
+    color: #fafafa;
+    opacity: 0.6;
+}
+
+.staking h3 {
+text-align: center;
+text-decoration: underline;
 }
 
 #overlay {
