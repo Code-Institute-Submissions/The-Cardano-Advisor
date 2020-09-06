@@ -1,5 +1,5 @@
 .footer-img {
-    height: 3.5rem;
+    height: 3.2rem;
     width: 3.5rem;
     padding: 0;
     margin: 0;
@@ -22,6 +22,7 @@ html,body {
 #black {
     color: black;
 }
+
 .front-box {
     background-color: 	#1b631b;
     color: #fff;
@@ -108,10 +109,17 @@ body {
 .map {
     color: #fff;
     text-align: left;
+    opacity: 0.7;
 }
 
-*, *::after, *::before {
-    box-sizing: border-box;
+.map-1 {
+    color: #fff;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.newmain {
+    max-width: 50%;
 }
 
 #charles {
@@ -148,24 +156,4 @@ body {
 .staking h3 {
 text-align: center;
 text-decoration: underline;
-}
-
-.byron {
-    background-image: url(../images/byron.jpg)
-}
-
-.shelley {
-    background-image: url(../images/shelley-l.jpg)
-}
-
-.gougen {
-    background-image: url(../images/gouguen-l.jpg)
-}
-
-.basho {
-    background-image: url(../images/basho-l.jpg)
-}
-
-.voltaire {
-    background-image: url(../images/Voltaire-l.jpg)
 }
