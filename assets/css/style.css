@@ -13,7 +13,9 @@ html,body {
     max-height: 100%;
     max-width: 100%;
 }
-
+.inline {
+    display: inline-block;
+}
 #logo {
     height: 10em;
     width: 10em;
