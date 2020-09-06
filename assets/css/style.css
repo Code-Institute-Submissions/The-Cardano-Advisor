@@ -120,8 +120,29 @@ body {
 
 .newmain {
     max-width: 50%;
+    max-height: 50%;
+    display: block;
 }
 
+.bg-road1:hover {
+    background-color: #71d45b;
+}
+
+.bg-road2:hover {
+    background-color: #5bc2d4;
+}
+
+.bg-road3:hover {
+    background-color: #5b77d4;
+}
+
+.bg-road4:hover {
+    background-color: #bed45b;
+}
+
+.bg-road5:hover {
+    background-color: #d4695b;
+}
 #charles {
     width: 10rem;
     height: 10rem;
