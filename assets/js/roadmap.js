@@ -1,10 +1,24 @@
-const main = document.querySelector('#newmain')
-const byron = document.querySelector('#byron');
-const shelley = document.querySelector('#shelley');
-const basho = document.querySelector('#basho');
-const gougen = document.querySelector('#gougen');
-const voltaire = document.querySelector('#voltaire');
+function change() {
+    var image =document.getElementById('newmain');
+    image.src = "assets/images/byron.jpg"
+}
 
-byron.addEventListener('click', () => {
-    src = '../images/shelley-l.jpg'
-})
+function changeS() {
+    var image =document.getElementById('newmain');
+    image.src = "assets/images/shelley-l.jpg"
+}
+
+function changeG() {
+    var image =document.getElementById('newmain');
+    image.src = "assets/images/gouguen-l.jpg"
+}
+
+function changeB() {
+    var image =document.getElementById('newmain');
+    image.src = "assets/images/basho-l.jpg"
+}
+
+function changeV() {
+    var image =document.getElementById('newmain');
+    image.src = "assets/images/Voltaire-l.jpg"
+}
