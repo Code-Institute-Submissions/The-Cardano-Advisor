@@ -1,3 +1,5 @@
+/* ------------------------------------------------images */
+
 .footer-img {
     height: 3.2rem;
     width: 3.5rem;
@@ -6,25 +8,37 @@
     box-shadow: 2px 2px 5px #86fb6c;
 }
 
-html,body {
-    height: 100%;
-}
 .logo-position {
     max-height: 100%;
     max-width: 100%;
 }
-.inline {
-    display: inline-block;
-}
+
 #logo {
     height: 10em;
     width: 10em;
 }
 
+.img-front {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/* ------------------------------------------------images */
+
+/* ------------------------------------------------Broad */
+html,body {
+    height: 100%;
+}
+
+.inline {
+    display: inline-block;
+}
+
 #black {
     color: black;
 }
+/* ------------------------------------------------Broad */
 
+/* ------------------------------------------------Index */
 .front-box {
     background-color: 	#1b631b;
     color: #fff;
@@ -58,12 +72,9 @@ body {
     background-position-x: top;
     background-position-y: top ;
 }
+/* ------------------------------------------------Index */
 
-.img-front {
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
+/* ------------------------------------------------Spacing Bars */
 .spacing {
     width: 100%;
     height: 8rem;
@@ -87,7 +98,9 @@ body {
     height: 1.5rem;
     opacity: 0.0;
 }
+/* ------------------------------------------------Spacing Bars */
 
+/* ------------------------------------------------Contact page */
 #contact-box {
     background-color: #1b631b;
     border-style: outset;
@@ -113,7 +126,9 @@ body {
 .contact-3 {
     color: #fff;
 }
+/* ------------------------------------------------Contact page */
 
+/* ------------------------------------------------Roadmap */
 .map {
     color: #fff;
     text-align: left;
@@ -151,6 +166,10 @@ body {
 .bg-road5:hover {
     background-color: #d4695b;
 }
+
+/* ------------------------------------------------Roadmap */
+
+/* ------------------------------------------------About */
 #charles {
     width: 10rem;
     height: 10rem;
@@ -176,7 +195,9 @@ body {
     width: 20rem;
     height: 10rem;
 }
+/* ------------------------------------------------About */
 
+/* ------------------------------------------------Staking */
 .staking {
     color: #fafafa;
     opacity: 0.6;
@@ -186,3 +207,4 @@ body {
 text-align: center;
 text-decoration: underline;
 }
+/* ------------------------------------------------Staking */
