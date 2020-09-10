@@ -7,7 +7,6 @@ async function getPrice () {
 };
 
 function createDashboard(prices) {
-    console.log(prices);
     let labelSet = [];
     let dataSet = [];
 
