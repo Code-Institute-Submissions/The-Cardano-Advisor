@@ -2,7 +2,7 @@
 
 *This site is for people to find out more about Cardano a cryptocurrency developed by Charles Hoskinsin which aims to become one of the leading new monetary systems.*
 
-![Website_image](assets/images/cardanoproject.png)
+![Website_image](assets/images/cardanoproject.PNG)
 
 ## UX
 
