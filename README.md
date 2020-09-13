@@ -59,7 +59,7 @@ c. I want to be able to contact someone if I have further questions.
 ### <a href="https://www.chartjs.org/" target="_blank">ChartJs</a>
 - ChartJS used for grapgh on charting page.
 
-### <a href="https://github.com/MarcSparks7/Milestone-project-UXD/blob/master/Wireframe/wireframe-milestone-ux.pdf" target="_blank">My Wireframes</a>
+### <a href="wireframe/cadanoadvisor.pdf" target="_blank">My Wireframes</a>
 - Balsamiq Wireframes.
 
 ### <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
@@ -132,9 +132,9 @@ a. The user can go to the roadmap section and go back over the section they want
 
 a. After reading about Cardano and thinking about what it can offer the user can come back to the main page of the site and choose to download the exe to for the Daedalus wallet via the offical page.
 
- ### I want to be able to download the Dadelus wallet if I didn't before
+ ### I want to be able to contact someone if I have further questions.
 
-a. 
+a. The user can go to the contact page where they will provide a name and email address then a brief message of what they want help with. This will send an email to the assigned email address using email JS with the details.
 
 ## Additional Testing
 
@@ -143,6 +143,7 @@ a.
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 - When using the Road-map extensive testing was done to try and break the sequence. Code does not break no matter the sequence of clicks.
+
 ### Contact form 
 
 - Try to submit the empty form and verify that an error message about the required fields appears.
