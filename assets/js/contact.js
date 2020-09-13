@@ -14,3 +14,4 @@ function sendMail(contactForm) {
     );
     return true;
 }
+/* This function is used for the automatic emailing of the contact form using EmailJS*/
