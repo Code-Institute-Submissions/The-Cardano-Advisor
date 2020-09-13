@@ -50,11 +50,14 @@ c. I want to be able to contact someone if I have further questions.
 
 ## Future ideas 
 
-1. Live calendar to the company and what dates they have DJ's Available. When I have more knowledge in other languages I will look to implement this.
+1. Once I have more knowledge in APIs I want to add the count down timer for each block reward.
 
-2. A profile page where you can see each Dj the company hires out to clients, past experiences and some comments from other clients.
+2. Once I have more Knowledge in Javascript I want to make the time staps into hourly stamps and day.
 
 ## Technologies Used
+
+### <a href="https://www.chartjs.org/" target="_blank">ChartJs</a>
+- ChartJS used for grapgh on charting page.
 
 ### <a href="https://github.com/MarcSparks7/Milestone-project-UXD/blob/master/Wireframe/wireframe-milestone-ux.pdf" target="_blank">My Wireframes</a>
 - Balsamiq Wireframes.
@@ -75,6 +78,8 @@ c. I want to be able to contact someone if I have further questions.
 - used for the contact page to send emails.
 
 ## Testing
+
+- <a href="https://esprima.org/demo/validate.html" target="_blank">syntax Validator</a>
 
 - <a href="https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">W3C Markup Validator</a>
 
@@ -137,14 +142,7 @@ a.
 - The website was viewed on a variety of devices such as Desktop, Laptop, samsung.
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
-
-### UX on mobile 
-- Simple changes were needed to be made for mobile users so that the information was more appealing on a mobile device. e.g removing the profile pictures from the quotes on the landing page. While testing I found that I had to edit the image I used for the quote section as the white writing got lost in the image. 
-
-### Landing page 
-
-- On a desktop, when hovering over the pictures on the landing page I found the writing dropdown was too slow for users to see in time and then changed the timing from 1sec to 0.5 sec.
-
+- When using the Road-map extensive testing was done to try and break the sequence. Code does not break no matter the sequence of clicks.
 ### Contact form 
 
 - Try to submit the empty form and verify that an error message about the required fields appears.
@@ -174,6 +172,8 @@ GitHub Pages
 
 
 ## Credits
+
+- Idea for charting and to use ChartJs came from a youtube tutorial quoted in graph.js
 
 - BackGround Image was taken from https://wallpapersafari.com/w/OyqRBE
 
