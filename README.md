@@ -144,6 +144,10 @@ a. The user can go to the contact page where they will provide a name and email 
 - Friends and family members were asked to review the site to point out any bugs and/or user experience issues.
 - When using the Road-map extensive testing was done to try and break the sequence. Code does not break no matter the sequence of clicks.
 
+### Road-Map
+
+- Try clicking on the different pictures. Each picture brings up the relvant information no mater the sequence.
+
 ### Contact form 
 
 - Try to submit the empty form and verify that an error message about the required fields appears.
@@ -176,7 +180,7 @@ GitHub Pages
 
 - Idea for charting and to use ChartJs came from a youtube tutorial quoted in graph.js
 
-- BackGround Image was taken from https://wallpapersafari.com/w/OyqRBE
+- BackGround Image for site was taken from https://wallpapersafari.com/w/OyqRBE
 
 - All information on the road-map structure/info/pictures were taken from https://roadmap.cardano.org/en/byron/
 
