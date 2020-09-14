@@ -45,4 +45,4 @@ function createDashboard(prices) {
 
 getPrice();
 
-/* Idea basic idea for code to chart API came from this source https://www.youtube.com/watch?v=5-ptp9tRApM&t=491s */
+/*basic idea for code to chart API came from this source https://www.youtube.com/watch?v=5-ptp9tRApM&t=491s */
