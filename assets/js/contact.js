@@ -1,4 +1,5 @@
 function sendMail(contactForm) {
+/* This function is used for the automatic emailing of the contact form using EmailJS*/
     emailjs.send("gmail", "cardano", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
@@ -6,12 +7,11 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            alert('Email sent! we will be with you shortly! <(^^,)>', response);
         },
         function(error) {
-            console.log("FAILED", error);
+            alert('OOPS something went wrong. Please try again', error);
         }
     );
-    return true;
+    return false;
 }
-/* This function is used for the automatic emailing of the contact form using EmailJS*/
